@@ -1,7 +1,10 @@
 // import ObjetosLiterales from "./typescript/ObjetosLiterales";
 // import TiposBasicos from "./typescript/TiposBasicos";
 
-import Login from "./components/Login";
+import { Formularios } from "./components/Formularios";
+// import { Usuarios } from "./components/Usuarios";
+
+// import Login from "./components/Login";
 
 // import Counter from "./components/Counter";
 
@@ -16,7 +19,9 @@ function App() {
       {/* <ObjetosLiterales /> */}
       {/* <Funciones /> */}
       {/* <Counter /> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <Usuarios /> */}
+      <Formularios />
     </div>
   );
 }
